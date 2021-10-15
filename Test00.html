@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <style >
+  
+  #status {
+    /*width: 40px;
+    height: 220px;*/
+    position: fixed;
+    left: 50%;
+    z-index: 100;
+    top: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+    z-index: 1001;
+    background-color: #566666;
+    border-radius: 30px;
+    animation: aaa6 3s linear infinite;
+    animation-delay: 0.1s;
+    animation-direction: alternate-reverse;
+}
+@-webkit-keyframes aaa6{
+    0% {opacity: 0%; width: 40px; height: 220px; top: 350px; left: 830px; transform: rotate(30deg); }
+    50% {opacity: 50%; width: 40px;height: 220px; top: 350px; left: 830px; transform: rotate(360deg); }
+    70% {opacity: 100%; width: 40px; height: 100px;top: 350px; left: 830px; transform: rotate(360deg); } 
+    80% {opacity: 0%; width: 40px; height: 100px;top: 350px; left: 830px; transform: rotate(360deg);}
+    100% {opacity: 0%;}
+}
+ #status1 {
+ /* width: 40px;
+    height: 220px;*/
+    position: fixed;
+    left: 50%;
+    z-index: 100;
+    top: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+    z-index: 1001;
+    background-color: #4a9dfc;
+    border-radius: 30px;
+    animation: aaa7 3.1s linear infinite;
+    animation-delay: 0.3s;
+    animation-direction: alternate-reverse;
+ }
+ @-webkit-keyframes aaa7{
+    0% {opacity: 0%; width: 40px; height: 220px; top: 350px; left: 830px; transform: rotate(30deg);}
+    50% {opacity: 50%; width: 40px;height: 220px; top: 350px; left: 830px; transform: rotate(360deg);}
+    70% {opacity: 100%; width: 40px; height: 100px;top: 350px; left: 830px; transform: rotate(360deg);}
+    80% {opacity: 0%; width: 40px; height: 100px;top: 350px; left: 830px; transform: rotate(360deg);}
+    100% {opacity: 0%;}
+}
+#status2{
+ /* width: 40px;
+    height: 220px;*/
+    position: fixed;
+    left: 50%;
+    z-index: 100;
+    top: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+    z-index: 1001;
+    background-color: #41ecab;
+    border-radius: 30px;
+    animation: aaa8 3.2s linear infinite;
+    animation-delay: 0.5s;
+    animation-direction: alternate-reverse;
+}
+@-webkit-keyframes aaa8{
+    0% {opacity: 0%; width: 40px; height: 220px; top: 350px; left: 830px; transform: rotate(30deg);}
+    50% {opacity: 50%; width: 40px;height: 220px; top: 350px; left: 830px; transform: rotate(360deg);}
+    70% {opacity: 100%; width: 40px; height: 100px;top: 350px; left: 830px; transform: rotate(360deg);}
+    80% {opacity: 0%; width: 40px; height: 100px;top: 350px; left: 830px; transform: rotate(360deg);}
+    100% {opacity: 0%;}
+}
+
+    #loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: palegoldenrod;
+        z-index: 1000
+    }
+</style>
+  
+<head >
+    <meta charset="utf-8">
+    <title>InspireGlobal - Điểm chạm đến thế giới của giấc mơ </title>
+    
+    <link rel="stylesheet" href="./decor.css" type="text/css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./decortest.css">
+    <link rel="stylesheet" href="./Decor3.css">
+    <link rel="stylesheet" href="./Decor 4.css">
+    <link rel="stylesheet" href="./loading0.css">
+    <link rel="stylesheet" href="./loading1.css">
+    <link rel="stylesheet" href="./pad1508.css">
+    <script type ="text/javascript" src="./tailieu2.js"> </script>
+
+    <div id="status2"></div>
+    <div id="status1"></div>
+    <div id='status'></div>
+    <div id='loader'></div>
+
+  </head>
+
+<body id="class" onload="Setup(),Setup1(),Setup2(),Setup3(),Clickk1(),Clickk3()">
+ 
+
+<div id="H1"></div>
+  <div id="H2"></div>
+
+
+<div id="A1">
+  <div id="A3">
+      <p style= "color: rgb(255, 255, 255);font-size: 30px; text-align: center; ">
+                    
+          <b> Chào mừng bạn đến với InspireGlobal</b>
+              
+         </p> 
+         <div id="A2" ></div>
+         </div>
+  </div>  
+<div id="H4" ></div>
+
+
+<div id="H5"></div>
+<div class="trending"></div>
+<div class="trending1"></div>
+<div class="trending2"></div>
+<div class="trending3"></div>
+<div class="trending4"></div>
+
+<div id="PAD00">
+<div class="top5"></div>
+<div class="arrow-right01"></div>
+<div class="top6"></div>
+<div class="arrow-right02"></div>
+<div class="top7"></div>
+<div class="arrow-right03"></div>
+</div>
+
+<div id="PAD01">
+<div class="top8"></div>
+<div class="arrow-right04"></div>
+<div class="top9"></div>
+<div class="arrow-right05"></div>
+<div class="top10"></div>
+<div class="arrow-right06"></div>
+</div>
+
+<div id="PAD02">
+<div class="top11"></div>
+<div class="arrow-right07"></div>
+<div class="top12"></div>
+<div class="arrow-right08"></div>
+<div class="top13"></div>
+<div class="arrow-right09"></div>
+</div>
+
+<div id="PAD03">
+<div class="top14"></div>
+<div class="arrow-right10"></div>
+<div class="top15"></div>
+<div class="arrow-right11"></div>
+<div class="top16"></div>
+<div class="arrow-right12"></div>
+</div>
+
+
+<div id="PAD04" style="opacity: 0%; width: 10px;">
+  <div class="top17"></div>
+  <div class="arrow-right13"></div>
+  <div class="top18"></div>
+  <div class="arrow-right14"></div>
+  <div class="top19"></div>
+  <div class="arrow-right15"></div>
+  </div>
+
+<div id="PAD05" style="opacity: 0%;">
+    <div class="top20"></div>
+    <div class="arrow-right16"></div>
+    <div class="top21"></div>
+    <div class="arrow-right17"></div>
+    <div class="top22"></div>
+    <div class="arrow-right18"></div>
+    </div>
+  
+<div id="PAD06" style="opacity: 0%;">
+    <div class="top23"></div>
+    <div class="arrow-right19"></div>
+    <div class="top24"></div>
+    <div class="arrow-right20"></div>
+    <div class="top25"></div>
+    <div class="arrow-right21"></div>
+    </div>
+
+<div id="PAD07" style="opacity: 0%;">
+    <div class="top26"></div>
+    <div class="arrow-right22"></div>
+    <div class="top27"></div>
+    <div class="arrow-right23"></div>
+    <div class="top28"></div>
+    <div class="arrow-right24"></div>
+    </div>
+      
+
+<div id="PAD08" style="opacity: 0%;">
+      <div class="top29"></div>
+      <div class="arrow-right25"></div>
+      <div class="top30"></div>
+      <div class="arrow-right26"></div>
+      <div class="top31"></div>
+      <div class="arrow-right27"></div>
+      </div>
+    
+<div id="PAD09" style="opacity: 0%;">
+        <div class="top32"></div>
+        <div class="arrow-right28"></div>
+        <div class="top33"></div>
+        <div class="arrow-right29"></div>
+        <div class="top34"></div>
+        <div class="arrow-right30"></div>
+        </div>
+      
+<div id="PAD10" style="opacity: 0%;">
+        <div class="top35"></div>
+        <div class="arrow-right31"></div>
+        <div class="top36"></div>
+        <div class="arrow-right32"></div>
+        <div class="top37"></div>
+        <div class="arrow-right33"></div>
+        </div>
+    
+<div id="PAD11" style="opacity: 0%;">
+        <div class="top38"></div>
+        <div class="arrow-right34"></div>
+        <div class="top39"></div>
+        <div class="arrow-right35"></div>
+        <div class="top40"></div>
+        <div class="arrow-right36"></div>
+        </div>
+
+
+<div id="tele-box" >
+  <p> <b id="it1" style="padding-left: 65px;"> TRANG 2 </b></p>
+  <p> <b id="it2" style="padding-left: 65px;"> TRANG 3 </b></p>
+  <p> <b id="it3" style="padding-left: 65px;"> TRANG 4 </b></p>
+</div>
+<div id="next-box" onload="">
+   <div id="next-icon1"></div>
+   <div id="next-icon"></div>
+    <a id="next-btn" href="#">
+      <i class="fas fa-arrow-alt-circle-right"></i>
+    </a> 
+</div>
+
+<div id="next-box1" onload="Clickk2()">
+  <div id="next-icon2"></div>
+  <div id="next-icon3"></div>
+   <a id="next-btn1" href="#">
+    <i class="fas fa-arrow-alt-circle-left"></i>
+   </a> 
+</div>
+
+
+
+  <div8 id ="search-box" >
+      <input id="search-txt" type="text" name="" placeholder="Tìm kiếm tác phẩm" >
+      <a id ="search-btn" href="">
+          <i class="fa fa-search"></i>
+  </a>
+     </div8>
+  
+  <div9 id="signup" >
+      <input id="signup-icon" type="button" name="" placeholder="Đăng ký">
+      <a id="signup-btn" href="">
+          <i class="fas fa-user-plus"></i>
+      </a>
+      <p3 id="A12"> Đăng ký</p3>
+  </div9>
+  
+  <div10 id ="login" >
+      <input id="login-icon" type="button" name="" aria-placeholder="Đăng nhập">
+      <a id ="login-btn" href="./Main 2.html">
+          <i class="fas fa-address-card"></i>
+      </a>
+      <p1 id="A13" > Đăng nhập </p1>
+  </div10>  
+  
+  <div11  id ="donate">
+      <input id="donate-icon" type="button" name="" placeholder="Khoản tiền tài trợ">
+      <a id ="donate-btn" href="">
+          <i class="fas fa-donate"></i>
+      </a>
+      <p2 id="A14"> Khoảntiền tàitrợ </p2>
+  
+  </div11>
+
+  <div id="CC4"></div>
+  <div id="CC5"></div>
+  <div id="CC6">
+    
+  </div>
+ 
+  <div id="O1">
+    <b> Inspire </b>
+   </div>
+   <div id="O2">
+     <b> Global </b> 
+   </div>
+   <div id="O3">
+   <b> chart </b>
+   </div>
+  <div id="NameColumn"></div>
+  <div id="NameColumn1"></div>
+  <div id="NameColumn2"></div>
+  <div id="NameColumn3"></div>
+  <div id="NameColumn4"></div>
+  <div id="NameColumn5"></div>
+
+    <!--image slider start-->
+    <div class="slider">
+      <div class="slides">
+        <!--radio buttons start-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <!--radio buttons end-->
+        <!--slide images start-->
+        <div class="slide first">
+         
+        <div class="info">
+          <h2>
+             <div></div>
+            <p>Cô</p>
+            <p>Gái</p>
+            <p>Thời</p>
+            <p>Tiết</p>
+          </h2>
+          <div class="BOX1"></div>
+          <div class="arrow-right"></div>
+
+          <div class="arrow-right1"></div>
+          <div class="BOX2"></div>
+
+          <div class="arrow-right2"></div>
+          <div class="BOX3"></div>
+
+
+          <div class="BOX4"></div>
+          <div class="arrow-right3"></div>
+
+          <div class="arrow-right4"></div>
+          <div class="BOX5"></div>
+
+          <div class="arrow-right5"></div>
+          <div class="BOX6"></div>
+        </div>
+          <img id="I0" src="1png.jpg" alt="">
+          
+        </div>
+        <div class="slide">
+          <div class="info1">
+            <h3 >
+            <p>Lời</p>
+            <p>Thì</p>
+            <p>Thầm</p>
+            <p>Trong</p>
+            <p>Cơn</p>
+            <p>Mưa</p>
+            
+            </h3>
+          </div>
+          <img id="I1" src="2png.jpg" alt="">
+        </div>
+        <div class="slide">
+          <div class="info2">
+            <h2 >
+            <p>Giấu</p>
+            <p>Tên</p>           
+            </h2>
+          </div>
+          <img id="I2" src="3png.jpg" alt="">
+        </div>
+        <div class="slide">
+          <div class="info3">
+            <h2 >Kirin</h2>
+          </div>
+          <img id="I3" src="4png.jpg" alt="">
+        </div>
+        <!--slide images end-->
+        <!--automatic navigation start-->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+        <!--automatic navigation end-->
+      </div>
+      <!--manual navigation start-->
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+      <!--manual navigation end-->
+    </div>
+    <!--image slider end-->
+
+ 
+
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 4){
+        counter = 1;
+      }
+    }, 7000);
+    </script>
+    <div id="focus">
+      <p> HAHA</p>
+    </div>
+
+
+  <div class="hinhbinhhanh"></div>
+  <div class="hinhbinhhanh1"></div>
+  <div class="hinhbinhhanh2"></div>
+
+ <div4 id="A4"  > 
+   <p>
+  <b>MENU</b>
+         <b>THỰC</b>
+         <b></b>
+         <b>ĐƠN</b>
+         <b></b>
+         </p>
+        <div7 id="A7">
+       <div6 id="A6"></div>
+     </div7>
+  </div4>  
+
+ <div class="font1">
+   <p > <b>Inspire</b> </p>
+ </div>
+ <div class="font2">
+  <p> <b>Global</b> </p>
+ </div>
+
+<div class="FA0"></div>
+<div class="FA1"></div>
+<div class="FA2"></div>
+<div class="FA3"></div>
+  
+ <div id="CC1">
+<marquee id="CC2" direction="left" style="position:absolute; top: 10px; left: -30px; color: wheat; "> THÔNG BÁO MỚI : RA MẮT SỰ KIỆN TRI ÂN ĐỘC GIẢ TỪ 23/10 ĐẾN 30/10</marquee>
+</div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+<script >
+  //<![CDATA[
+  $(window).bind("load", function() {
+      jQuery("#status2").fadeOut(1000);
+      jQuery("#status1").fadeOut(1000);
+      jQuery("#status").fadeOut(1000);
+      jQuery("#loader").fadeOut(1000);
+     
+  });
+  //]]>
+</script>
+
+
+  </body>
+
+</html>
+  
+
